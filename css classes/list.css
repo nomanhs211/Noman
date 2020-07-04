@@ -1,0 +1,157 @@
+/* class 19  */
+/* there are three property of color on which color is applied 
+i.e. 1.text color 2.background color 3. border 
+the color which's applied on text color is called forground color   */
+/* there are three types for applying color 
+1.color name 2.hex code means color number 3.rgb color (combinition of three color i.e.red ,green,blue)   */
+
+/*1. color name */
+  h1{
+    color: salmon;
+}  
+/* 2. rgb color  */
+   h2{
+    color: rgb(255,100,50);
+    background-color: rgb(100,100,100);
+}   
+/*3. hex code (hexa decimal) */
+ h3{
+    color: #77ffe8;
+}   
+   body{ 
+    background-color: royalblue;
+}  
+ h1{
+    color: seashell;
+    background-color: sienna;   
+    /* opacity makes border and background transparent */
+      opacity: 0.8;
+    border: 5px solid yellowgreen; 
+}  
+/* in rgb 'a' shows opacity */
+   h1{
+    color: seashell;
+    background-color: rgba(100, 200,300,0.9);
+    border: 5px solid yellowgreen;
+}  
+/* hsl standsfor hugh,saturation,lightness */
+  h2{
+    color: hsl(0, 100%, 50%);
+    background-color: indigo;
+    border: 5px solid yellowgreen;
+}    
+ /* class 20 */
+ /* for importing font from google use this method */
+    @font-face{
+     font-family: "OleoScript-Bold";
+     src: url("OleoScript-Bold.ttf");
+ }
+ h1{
+     color: lawngreen;
+     font-family: OleoScript-Bold;  
+ }        
+ 
+    h1{
+     color: red;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+     font-size: 50px; 
+      text-align: center; 
+      text-decoration:underline ;
+      text-transform:uppercase ; 
+      font-weight: bold;
+      font-style: italic;
+      text-shadow:5px 5px 7px green;  
+     
+ } 
+  p{
+    color: red;
+    font-family: OleoScript-Bold;
+     font-weight: bold; 
+    font-style: italic;
+    word-spacing: 15px;
+     text-align: justify;
+     text-indent: 30px;
+     line-height: 50px;
+   } 
+ li{
+     text-transform:uppercase ;
+     line-height: 30px;
+     letter-spacing: 20px;
+
+}   
+/* class 21 */
+/* for first letter capitalizing */
+   p:first-letter{
+    font-size: 50px;
+
+} 
+
+ p:first-line{
+    font-size: 30px;
+}  
+ /* for link */
+ 
+  a:link{
+    color: red;
+}  
+ a:visited{
+    color:green;
+}  
+  a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}  
+ button{
+    width:70px;
+    height:50px;
+} 
+ button:hover{
+    background-color: yellow;
+color: red;
+}  
+/* after click active use before click hover use */
+ button:active{
+    color: red;
+    background-color: green;
+} 
+ button:focus{
+     color: red;
+    
+}  
+/* active and focus are same but focus is best */
+ img{
+    width: 100%;
+    
+    
+
+} 
+ li[class]{
+    color: hotpink;
+}   li[class="hub"]{
+    color: red;} 
+ li{
+    color: blue;
+} 
+/* class 22 */
+.box{
+  border: 3px dotted red;
+  width: 400px;
+  min-height: 300px;
+  max-height: 400px; 
+text-align: center; 
+  display: inline-block;
+ overflow: scroll; 
+  padding: 20px; 
+  margin: 20px auto 20px auto; 
+
+}
+ 
+  
+
+ div.header{
+    width: 400px;
+    background-color: green;
+border-radius: 20px;
+text-align: center;
+
+}   

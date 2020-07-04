@@ -1,0 +1,23 @@
+/* game on position relative */
+.box{
+    border: 2px dotted red;
+     text-align: center; 
+    background-color: greenyellow;
+     width: 300px; 
+      padding: 20px;  
+      display: inline-block;
+    margin: 10px auto 10px auto;  
+
+}
+#box{
+    border: 2px dotted red;
+    text-align: center; 
+   background-color: greenyellow;
+    width: 300px; 
+     padding: 20px;  
+      display: inline-block;
+   margin: 10px auto 10px auto; 
+   position: relative;
+   left: 20px;
+   top: 20px;
+}
